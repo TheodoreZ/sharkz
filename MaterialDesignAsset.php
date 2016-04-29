@@ -1,17 +1,17 @@
 <?php 
-namespace rafaelvaloto\mdl\material;
+namespace theodorez\material;
 use yii\web\AssetBundle;
 /**
  * 
  **/
 class MaterialDesignLiteAsset extends AssetBundle
 {
-	public 	$sourcePath = '@bower/material-design-lite';
+	public 	$sourcePath = '@bower/material-design';
 	public $css = [
-		'material.min.css'	
+		'material.min.css'
 	];
-	public $js = [	
-		'material.min.js'	
-	];	
+	public $js = [
+		'material.min.js'
+	];
 }
 ?>
